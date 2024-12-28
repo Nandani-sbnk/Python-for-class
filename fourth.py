@@ -1,0 +1,49 @@
+dict={
+    "name":"NANDANI",
+    "cgpa":8.2,
+    "branch":"CE AI",
+    "marks":[8.2,8.3,8.1]
+}
+print(dict["name"])
+dict["cgpa"]=9.2
+print(dict)
+student={
+    "name":"neeshu",
+    "marks":{
+        "phy":94,
+        "che":96,
+        "math":97
+
+    }
+}
+print(student)
+print(len(student))
+print(list(student.keys()))
+print(student.values())
+print(list(student.values()))
+print(student.items())
+print(dict.get("marks"))
+student.update({"city":"varanasi"})
+print(student)
+nums={1,2,3,4,5}
+print(nums)
+set1={2,7,6,7,2,4,2,"abc","xyz","abc"}
+print(set1)
+print(len(set1))
+coll={}
+coll1=set()
+print(type(coll))
+print(type(coll1))
+coll1.add(90)
+coll1.add(34)
+coll1.add("world")
+#coll1.add([1,3,5])
+coll1.add((67,89,42,"rty"))
+print(coll1)
+coll1.clear()
+print(coll1)
+collection={"abc","xyz","try","weare"}
+print(collection)
+print(set1.union(collection))
+print(set1.intersection(collection))
+
